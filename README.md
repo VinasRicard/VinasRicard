@@ -2,6 +2,8 @@
 Ricard</a></h1>
 <h3 align="center">I am a Computer Engineering student with two years of experience in web design and frontend development. I am based in Barcelona and working with clients worldwide.</h3>
 
+<br/>
+
 <a target="_blank" align="center">
   <img align="right" top="500" height="300" width="400" alt="GIF" src="dev.png">
 </a>
