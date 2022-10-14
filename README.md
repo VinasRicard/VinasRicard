@@ -14,8 +14,6 @@ Ricard</a></h1>
 
 - 🤝 I’m available for freelancing.
 
-- 📫 How to reach me: **ricard.vinasf@gmail.com**
-
 - 💻 My <a href="https://vinasricard.github.io/VinasRicard/" target="blank">Website</a>
 
 - 💼 My <a href="https://www.linkedin.com/in/ricard-viñas-a01a29214/" target="blank">Linkedin</a>
