@@ -239,7 +239,9 @@
     #topbar {
         margin-left: 14px;
         margin-right: 14px;
-        height: fit-content;
+        position: absolute;
+        top: 0;
+        width: 97%;
     }
     
     #menu a {
