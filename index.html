@@ -1,144 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricard Viñas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="profile.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricard Viñas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div id="site">
-    <div id="topbar">
-        <a href="index.html" id="title">RICARD VIÑAS</a>
-        <div id="menu">
-            <a href="#contact">Get in touch</a>
-            <a href="#projects">Projects</a>
-            <a href="#aboutme">About me</a>
-        </div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-left">
+      <div class="nav-name">Ricard Viñas,</div>
+      <div class="nav-role">AI Engineer</div>
     </div>
-    <div id="cover">
-        <h1 id="subtitle">Frontend Developer and Computer Engineering Student</h1>
-        <img src="profile.png" id="profilepic">
+    <div class="nav-links">
+      <a href="#about">About</a>
     </div>
-    <div id="aboutme" class="section">
-        <div id="colorblock">
-            <h2 class="sectitle">Hi, I'm Ricard. Nice to meet you.</h2>
-            <h3 class="secsubtitle">I am a Computer Engineering student with two years of experience in web design and frontend development. I am based in Barcelona and working with clients worldwide.</h3>
-            <h3 class="secsubtitle">I have native level of Spanish and Catalan and a high level of English.</h3>
-            <h3 class="secsubtitle">Some of the services I offer are: Design of a Website or App, Development of a Static Website, Management and Maintanance of a website and Email Marketing Templates.</h3>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero"></div>
+
+  <!-- MAIN WRAPPER -->
+  <div class="wrapper">
+    <hr class="rule">
+
+    <div class="layout">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <p class="sidebar-bio">Engineering is my foundation; leadership is my responsibility. A Computer Engineering graduate building AI solutions that bridge technical innovation and business value.</p>
+        <div class="sidebar-links">
+          <a href="https://www.linkedin.com/in/ricardvinas" target="_blank" class="sidebar-link">LinkedIn ↗</a>
         </div>
-        <div class="servicescontainer">
-            <div class="colorblock2"></div>
-            <div id="services">
-                <div>
-                    <img src="design.png" class="serviceimg">
-                    <h3 class="servicetitle">Design</h3>
-                    <h3 class="itemtxt">I value simple content structure, clean design patterns, and thoughtful interactions.</h3>
-                    <h3 class="servicesubtitle">Things I like designing</h3>
-                    <h3 class="itemtxt">Web, Apps, Logos and Content for Social Media</h3>
-                    <h3 class="servicesubtitle">Design tools</h3>
-                    <h3 class="itemtxt">InVision Studio</h3>
-                    <h3 class="itemtxt">Photoshop</h3>
-                    <h3 class="itemtxt">Vectornator</h3>
-                    <h3 class="itemtxt">Pen & Paper</h3>
-                </div>
-                <div class="line"> </div>
-                <div>
-                    <div>
-                        <img src="dev.png" class="serviceimg">
-                        <h3 class="servicetitle">Frontend Development</h3>
-                        <h3 class="itemtxt">I love coding things from scratch and bringing ideas to life in the browser</h3>
-                        <h3 class="servicesubtitle">Languages</h3>
-                        <h3 class="itemtxt">HTML, CSS, JavaScript, C++ and Java</h3>
-                        <h3 class="servicesubtitle">Dev tools</h3>
-                        <h3 class="itemtxt">Wordpress</h3>
-                        <h3 class="itemtxt">Atom</h3>
-                        <h3 class="itemtxt">Firebase</h3>
-                        <h3 class="itemtxt">Visual Studio Code</h3>
-                        <h3 class="itemtxt">Github</h3>
-                        <h3 class="itemtxt">Android Studio</h3>
-                        <h3 class="itemtxt">Sublime Text</h3>
-                        <h3 class="itemtxt">Terminal</h3>
-                    </div>
-                </div>
+      </aside>
+
+      <!-- CONTENT -->
+      <div class="content">
+
+        <!-- ABOUT ME -->
+        <section class="section" id="about">
+          <div class="section-label">About Me</div>
+          <div class="section-body">
+            <p>I am a Computer Engineering graduate specialized in Software Engineering. My career is built on a high standard of rigor, having received the award for the Best Academic Record in my specialization. Currently, as an AI Engineer, I focus on bridging the gap between complex technical innovation and tangible business value.</p>
+            <p>Beyond the technical side, I believe in the power of commitment. For the past six years, I have volunteered at a local youth organization, coordinating a team of instructors and managing programs for over a hundred children. I view leadership as a balance of discipline and empathy.</p>
+          </div>
+        </section>
+
+        <hr class="rule">
+
+        <!-- CORE PILLARS -->
+        <section class="section">
+          <div class="section-label">Core Pillars</div>
+          <div class="section-body pillars">
+            <div class="pillar">
+              <div class="pillar-title">AI & Software Innovation</div>
+              <p class="pillar-text">Developing scalable LLM-driven tools and enterprise solutions to automate workflows and enhance productivity.</p>
             </div>
-        </div>
+            <div class="pillar">
+              <div class="pillar-title">Business Perspective</div>
+              <p class="pillar-text">Applying a strategic mindset to digital transformation, ensuring technology serves a larger business purpose.</p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-title">Social Commitment</div>
+              <p class="pillar-text">Leading teams and educational programs in local youth organizations to create a positive impact on the community.</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="rule">
+
+        <!-- EXPERIENCE -->
+        <section class="section">
+          <div class="section-label">Experience & Background</div>
+          <div class="section-body">
+
+            <div class="exp-item">
+              <div class="exp-left">
+                <div class="exp-title">AI Engineer</div>
+                <div class="exp-meta">Napptilus Tech Labs</div>
+              </div>
+              <div class="exp-right">
+                <p>Developing AI solutions for enterprise clients to optimize business processes.</p>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-left">
+                <div class="exp-title">Full Stack Developer</div>
+                <div class="exp-meta">Amphora Logistics</div>
+              </div>
+              <div class="exp-right">
+                <p>Built mobile features and microservices that directly improved warehouse productivity.</p>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-left">
+                <div class="exp-title">International Experience</div>
+                <div class="exp-meta">Malaysia & Montréal</div>
+              </div>
+              <div class="exp-right">
+                <p>Worked in Malaysia on ERP/CRM solutions and studied in Montréal, adapting to diverse professional environments.</p>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <div class="exp-left">
+                <div class="exp-title">Youth Leadership</div>
+                <div class="exp-meta">Esplai La Nivaira</div>
+              </div>
+              <div class="exp-right">
+                <p>Coordinating instructors and designing educational programs for 100+ youth annually.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <hr class="rule">
+
+        <!-- EDUCATION -->
+        <section class="section">
+          <div class="section-label">Education & Certifications</div>
+          <div class="section-body">
+
+            <div class="edu-item">
+              <div class="edu-left">FIB-UPC & Polytechnique Montréal</div>
+              <div class="edu-right">
+                <div class="edu-degree">BSc in Computer Engineering</div>
+                <div class="edu-detail">Specialization in Software Engineering · Best Academic Record Award</div>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-left">Salesians Rocafort, Barcelona</div>
+              <div class="edu-right">
+                <div class="edu-degree">High School Dual Diploma</div>
+                <div class="edu-detail">Spanish and American High School Diplomas with honors</div>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-left">Esade · IE · Other</div>
+              <div class="edu-right">
+                <div class="edu-degree">Business Fundamentals</div>
+                <div class="edu-detail">Certifications in Negotiation (Esade), Digital Leadership (IE), and Communication</div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <hr class="rule">
+
+        <!-- OUTSIDE THE OFFICE -->
+        <section class="section">
+          <div class="section-label">Outside the Office</div>
+          <div class="section-body pillars">
+            <div class="pillar">
+              <div class="pillar-title">Sports & Energy</div>
+              <p class="pillar-text">Avid athlete — running, tennis, padel, and football.</p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-title">Creativity & Culture</div>
+              <p class="pillar-text">Piano player and curious reader.</p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-title">Adventure & Connection</div>
+              <p class="pillar-text">Traveling, hiking, board games with friends and family — always up for a new challenge.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
     </div>
-    <div id="projects" class="section">
-        <h2 class="sectitle">Projects</h2>
-        <h3 class="secsubtitle">Here you have some examples of my work</h3>
-        <div class="table">
-            <div class="item">
-                <h3 class="itemtitle">socunbohemio.com</h3>
-                <img src="socunbohemio.png" class="projectimg">
-                <h3 class="itemtxt">Official website for Socunbohemio.</h3>
-                <h3 class="itemtxt">Socunbohemio is a musical project that mixes original music with softer indie. This website includes all the important information about the artist.</h3>
-                <h3 class="itemtxt">Built with HTML, CSS and JavaScript</h3>
-                <div class="btncontainer"><a href="https://socunbohemio.com" class="btn">Visit site</a></div>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">flowON</h3>
-                <img src="flowon.png" class="projectimg">
-                <h3 class="itemtxt">Official website for flowON.</h3>
-                <h3 class="itemtxt">FlowON is a german company focused on business productivity.</h3>
-                <h3 class="itemtxt">Built with Wordpress</h3>
-                <div class="btncontainer"><a href="https://flowon.de" class="btn">Visit site</a></div>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">Pomodoro Timer</h3>
-                <img src="pomodoro.png" class="projectimg">
-                <h3 class="itemtxt">This is a simple web app that allows the user to track blocks of 25, 15 and 5 minutes for the Pomodoro technique.</h3>
-                <h3 class="itemtxt">The Pomodoro technique is a time managemend tool to improve productivity. It is very simple, just divide your time in 25 minutes sessions of work and rest 5 minutes between sessions; After 4 sessions people recommend resting for 15 minutes. Just press start and focus on what matters.</h3>
-                <h3 class="itemtxt">Built with HTML, CSS and JavaScript</h3>
-                <div class="btncontainer"><a href="https://vinasricard.github.io/PomodoroTimer/" class="btn">Visit site</a></div>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">Simple To Do</h3>
-                <img src="todo.png" class="projectimg">
-                <h3 class="itemtxt">This is a very simple tasks management web app that allows the user to create new tasks, mark them as completed and delete them; As easy as it sounds!</h3>
-                <h3 class="itemtxt">Built with HTML, CSS and JavaScript</h3>
-                <div class="btncontainer"><a href="https://vinasricard.github.io/ToDo/" class="btn">Visit site</a></div>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">App against Bullying and Mobbing</h3>
-                <img src="wba.jpeg" class="projectimg">
-                <h3 class="itemtxt">WBA School&Business is a mobile app against bullying and mobbing adressed to schools and companies. The app allows students from schools or workers from companies to send an anonymous or signed message to their institutions to report cases of bullying and mobbing.</h3>
-                <h3 class="itemtxt">Built with Java and XML</h3>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">Email Template</h3>
-                <img src="email.png" class="projectimg">
-                <h3 class="itemtxt">This is an email template I built for an startup that needed a template to welcome new users.</h3>
-                <h3 class="itemtxt">An email template is a pre-defined email layout, that may already include content like images or text.</h3>
-                <h3 class="itemtxt">Built with HTML and CSS</h3>
-            </div>
-            <div class="item">
-                <h3 class="itemtitle">Personal Website</h3>
-                <img src="portfolio.png" class="projectimg">
-                <h3 class="itemtxt">Simple and minimal personal website.</h3>
-                <h3 class="itemtxt">Built with HTML and CSS</h3>
-            </div>
-        </div>
+
+    <hr class="rule rule--bottom">
+
+    <!-- CONTACT -->
+    <div class="contact-section">
+      <h2 class="contact-title">Get in touch</h2>
+      <a href="https://www.linkedin.com/in/ricardvinas" target="_blank" class="contact-link-cta">LinkedIn ↗</a>
     </div>
-    <div id="contact" class="section">
-        <h2 class="sectitle">Get in touch</h2>
-        <form id="contact-form" action="https://formspree.io/f/mrgrlkgk" method="POST">
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
-            <input type="submit" value="SUBMIT"/>
-        </form>
-        <div id="socialmedia">
-            <a href="https://www.linkedin.com/in/ricard-viñas-a01a29214/"><img src="linkedin.png" class="sm"></a>
-            <a href="https://github.com/VinasRicard"><img src="github.png" class="sm"></a>
-        </div>
-    </div>
-   </div>
-   <script src="main.js"></script>
+
+  </div>
+
 </body>
 </html>
